@@ -1,0 +1,254 @@
+.career-body {
+    background-color: white;
+}
+
+.c-body-grid {
+    margin: 5px 5px;
+    display: flex;
+    max-width: 1200px;
+    padding: 30px 60px;
+    justify-content: center;
+}
+
+.c-b-grid-flex-0 {
+    flex-direction: row;
+}
+
+.c-b-grid-flex-1 {
+    flex-direction: row-reverse;
+}
+
+.c-body-grid div h2 {
+    font-family: freight-text-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1em;
+    font-size: 2.5em;
+}
+
+.career-figure img {
+    min-height: 210px;
+    max-width: 270px;
+    max-width: 480px;
+}
+
+.flex-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    margin: auto 5px;
+    max-width: 1200px;
+}
+
+.card {
+    background-color: #016cd6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    width: 350px;
+    max-height: 70px;
+    border-radius: 5px;
+}
+
+.card:hover, .collapse-active {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+    background-color: #036 !important;
+    cursor: pointer;
+}
+
+.card-container {
+    color: white;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 59px;
+    max-height: inherit;
+}
+
+.card-container>* {
+    max-height: inherit;
+    align-content: center;
+}
+
+.card-icon img {
+    padding-left: 10px;
+}
+
+.card-icon-context>* {
+    margin: 0;
+}
+
+.card-icon-context > h4 {
+    padding-bottom: 6px;
+}
+
+.collapsibleContent {
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border: 1px solid #cccccc;
+    border-radius: 16px;
+    margin: 0 60px;
+    margin-bottom: 20px;
+    max-width: 1250px;
+}
+
+.collapsibleContent>* {
+    padding: 16px;
+    margin: 1px;
+}
+
+.collapsibleContent > h2 {
+    padding-bottom: 0;
+}
+
+.collapsibleContent.active {
+    display: block;
+}
+
+.hyperLink-high {
+    background-color: transparent;
+    background-image: linear-gradient(rgba(23, 220, 255, 0.5), rgba(23, 220, 255, 0.5));
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    color: #036;
+    font-weight: 600;
+    display: inline;
+    transition: 0.2s ease;
+    word-wrap: break-word;
+    text-decoration: none;
+    background-size: 100% 5px;
+}
+
+.hyperLink-high:hover {
+    background-size: 100% 100%;
+}
+
+/* Backgroung Image  --- Code*/
+
+.imageStore {
+    height: 100%;
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+}
+
+.imageStore-context {
+    text-align: center;
+    height: 100%;
+    padding: 30px 150px;
+}
+
+.is-c-title {
+    color: white;
+    font-family: freight-text-pro, serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1em;
+    font-size: 2.5em;
+    padding-bottom: 60px;
+}
+
+.is-c-content {
+    font-family: 'Myriad Pro', Arial, sans-serif;
+    color: white;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.is-c-readmore {
+    color: white;
+}
+
+.sub-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sub-content-item {
+    width: 400px;
+}
+
+.sub-content-item > h3 {
+    font-family: freight-text-pro, serif;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 1em;
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+.sub-content-item-list {
+    width: fit-content;
+}
+
+.sub-content-item-list > li {
+    display: flex;
+}
+
+.sub-content-item-list-item {
+    padding-bottom: 10px;
+}
+
+.sub-content-item > .sub-content-item-list-4-1-0 {
+    padding-left: 25px;
+}
+
+.sub-content-item-list-4-4-3 {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.align-header-4-4-3 {
+    padding-right: 85px;
+}
+
+.sub-content-item-list-4-3-2 {
+    padding-left: 60px;
+}
+
+.subcontent-linksList {
+    background-color: transparent;
+    background-image: linear-gradient(rgba(1, 108, 219, 0.5), rgba(1, 108, 219, 0.5));
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    color: white;
+    display: inline;
+    transition: 0.2s ease;
+    word-wrap: break-word;
+    text-decoration: none;
+    background-size: 100% 5px;
+    font-family: 'Myriad Pro', Arial, sans-serif;
+}
+
+.subcontent-linksList:hover {
+    background-size: 100% 100%;
+}
+
+.sub-content-item > p {
+    text-align: justify;
+    padding-left: 50px;
+}
+
+.align-2-2-1 {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.align-4-3-2 {
+    padding-left: 25px;
+}
+
+.align-header-4-1-0 {
+    padding-right: 60px;
+}
+
+.align-header-4-3-2 {
+    padding-right: 38px;
+}
